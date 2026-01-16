@@ -1,0 +1,288 @@
+MSBuild version 18.0.5+e22287bf1 for .NET Framework
+
+  Catch2.vcxproj -> C:\Users\garri\Downloads\hft_engine\build\_deps\catch2-build\src\Release\Catch2.lib
+  Catch2WithMain.vcxproj -> C:\Users\garri\Downloads\hft_engine\build\_deps\catch2-build\src\Release\Catch2Main.lib
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: The referenced project C:\Users\garri\Downloads\hft_engine\build\data\data.vcxproj does not exist. [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+cl : command line  warning D9002: ignoring unknown option '/GN' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  main.cpp
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(16,42): error C2143: syntax error: missing '}' before 'constant' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(16,42): error C2059: syntax error: 'constant' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(16,48): error C2143: syntax error: missing ';' before '}' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(20,13): error C3646: 'ts': unknown override specifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(20,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(21,12): error C3646: 'level': unknown override specifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(21,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,12): error C2061: syntax error: identifier 'LogLevel' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(102,3): error C7568: argument list missing after assumed function template 'SPSCRingBuffer' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(50,11): error C2039: 'ts': is not a member of 'LogEntry' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(19,8):
+      see declaration of 'LogEntry'
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(50,16): error C3861: 'now_nanos': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(50,25):
+      'now_nanos': function declaration must be available as none of the arguments depend on a template parameter
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(51,11): error C2039: 'level': is not a member of 'LogEntry' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(19,8):
+      see declaration of 'LogEntry'
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(51,19): error C3861: 'level': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(55,40): error C3861: 'fmt': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(55,67): error C3861: 'args': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(51,19): error C2065: 'level': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(55,40): error C2065: 'fmt': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(55,67): error C2065: 'args': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(47,8):
+      This diagnostic occurred in the compiler generated function 'void Logger::log(void)'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(75,33): error C2039: 'ts': is not a member of 'LogEntry' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(19,8):
+      see declaration of 'LogEntry'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(80,25): error C2039: 'level': is not a member of 'LogEntry' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(19,8):
+      see declaration of 'LogEntry'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(81,16): error C2653: 'LogLevel': is not a class or namespace name [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(81,26): error C2065: 'DEBUG': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(81,26): error C2131: expression did not evaluate to a constant [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(81,26):
+      a non-constant (sub-)expression was encountered
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(84,16): error C2653: 'LogLevel': is not a class or namespace name [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(84,26): error C2065: 'WARN': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(84,26): error C2131: expression did not evaluate to a constant [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(84,26):
+      a non-constant (sub-)expression was encountered
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(87,26): error C2589: 'constant': illegal token on right side of '::' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(87,16): error C2062: type '<error>' unexpected [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(94,51): error C2039: 'ts': is not a member of 'LogEntry' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(19,8):
+      see declaration of 'LogEntry'
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(116,1): error C2059: syntax error: '}' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\core\logger.hpp(116,1): error C2143: syntax error: missing ';' before '}' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\market_data_types.hpp(7,16): error C2039: 'data': is not a member of 'hft' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft'
+  
+C:\Users\garri\Downloads\hft_engine\data\market_data_types.hpp(7,21): error C2143: syntax error: missing ';' before '{' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\market_data_types.hpp(7,21): error C2447: '{': missing function header (old-style formal list?) [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(11,50): error C2065: 'TradeUpdate': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(11,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(11,62): error C2143: syntax error: missing ',' before '&' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(11,64): error C2143: syntax error: missing ')' before '>' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(12,50): error C2065: 'LevelUpdate': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(12,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(12,62): error C2143: syntax error: missing ',' before '&' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(12,64): error C2143: syntax error: missing ')' before '>' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(23,29): error C2039: 'TradeUpdate': is not a member of 'hft::data' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(6,11):
+      see declaration of 'hft::data'
+      C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(23,29):
+      the template instantiation context (the oldest one first) is
+          C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(13,62):
+          while compiling class template 'hft::execution::ExecutionEngine'
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(23,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(23,41): error C2143: syntax error: missing ',' before '&' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(33,17): error C2059: syntax error: '(' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(33,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(33,3): error C2059: syntax error: ')' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(33,32): error C2059: syntax error: ')' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(33,3): warning C4183: '__attribute__': missing return type; assumed to be a member function returning 'int' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(25,38): error C3861: 'trade': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(25,38): error C2065: 'trade': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(48,7): error C2039: 'Logger': is not a member of 'hft::core' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft::core'
+      C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(33,39):
+      This diagnostic occurred in the compiler generated function 'void hft::execution::ExecutionEngine<StrategyType,GatewayType>::execute_signal(const _T0 &)'
+  
+C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(51,7): error C2039: 'Logger': is not a member of 'hft::core' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft::core'
+      C:\Users\garri\Downloads\hft_engine\execution\execution_engine.hpp(33,39):
+      This diagnostic occurred in the compiler generated function 'void hft::execution::ExecutionEngine<StrategyType,GatewayType>::execute_signal(const _T0 &)'
+  
+C:\Users\garri\Downloads\hft_engine\models\stat_arb.hpp(16,31): error C2039: 'TradeUpdate': is not a member of 'hft::data' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+      C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(6,11):
+      see declaration of 'hft::data'
+  
+C:\Users\garri\Downloads\hft_engine\models\stat_arb.hpp(16,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\models\stat_arb.hpp(16,43): error C2143: syntax error: missing ',' before '&' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\models\stat_arb.hpp(20,9): error C2065: 'trade': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\models\stat_arb.hpp(23,17): error C2065: 'trade': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\models\stat_arb.hpp(35,17): error C2065: 'trade': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\models\stat_arb.hpp(43,17): error C2065: 'trade': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  (compiling source file '../infra/main.cpp')
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(34,27): error C3878: syntax error: unexpected token 't' following 'expression' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(52,6): error C2059: syntax error: ')' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(68,9): error C3083: 'Logger': the symbol to the left of a '::' must be a type [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(68,17): error C2039: 'instance': is not a member of 'hft::core' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft::core'
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(68,17): error C3861: 'instance': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(69,3): error C3083: 'Logger': the symbol to the left of a '::' must be a type [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(69,3): error C2039: 'instance': is not a member of 'hft::core' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft::core'
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(69,3): error C3861: 'instance': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(87,39): error C2039: 'TradeUpdate': is not a member of 'hft::data' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+      C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(6,11):
+      see declaration of 'hft::data'
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(87,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(87,51): error C2143: syntax error: missing ',' before '&' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(87,73): error C2065: 't': undeclared identifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(87,10): error C2664: 'void hft::data::FeederInterface::set_on_trade(<error>)': cannot convert argument 1 from 'main::<lambda_1>' to '<error>' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+      C:\Users\garri\Downloads\hft_engine\data\feeder_interface.hpp(19,8):
+      see declaration of 'hft::data::FeederInterface::set_on_trade'
+      C:\Users\garri\Downloads\hft_engine\infra\main.cpp(87,10):
+      while trying to match the argument list '(main::<lambda_1>)'
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(89,3): error C3083: 'Logger': the symbol to the left of a '::' must be a type [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(89,3): error C2039: 'instance': is not a member of 'hft::core' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft::core'
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(89,3): error C3861: 'instance': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(96,3): error C3083: 'Logger': the symbol to the left of a '::' must be a type [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(96,3): error C2039: 'instance': is not a member of 'hft::core' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft::core'
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(96,3): error C3861: 'instance': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(98,9): error C3083: 'Logger': the symbol to the left of a '::' must be a type [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(98,17): error C2039: 'instance': is not a member of 'hft::core' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+      C:\Users\garri\Downloads\hft_engine\core\logger.hpp(14,11):
+      see declaration of 'hft::core'
+  
+C:\Users\garri\Downloads\hft_engine\infra\main.cpp(98,17): error C3861: 'instance': identifier not found [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+  unit_tests.vcxproj -> C:\Users\garri\Downloads\hft_engine\build\tests\Release\unit_tests.exe

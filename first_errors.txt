@@ -1,0 +1,5 @@
+\Users\garri\Downloads\hft_engine\core\logger.hpp(16,42): error C2143: syntax error: missing '}' before 'constant' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+\Users\garri\Downloads\hft_engine\core\logger.hpp(16,42): error C2059: syntax error: 'constant' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+\Users\garri\Downloads\hft_engine\core\logger.hpp(16,48): error C2143: syntax error: missing ';' before '}' [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+\Users\garri\Downloads\hft_engine\core\logger.hpp(20,13): error C3646: 'ts': unknown override specifier [C:\Users\garri\Downloads\hft_engine\build\hft_engine.vcxproj]
+\Users\garri\Downloads\hft_engine\core\logger.hpp(20,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [C:\Users\garri\Downloads\hft_eng

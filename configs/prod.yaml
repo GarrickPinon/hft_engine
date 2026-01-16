@@ -1,0 +1,7 @@
+# Placeholder for YAML configs
+# In a real system, we'd use yaml-cpp to load these into structs
+exchange:
+  name: "TXSE"
+  symbols: ["BTC-USD", "ETH-USD"]
+risk:
+  max_qty: 1.0

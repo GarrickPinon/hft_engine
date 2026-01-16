@@ -1,0 +1,26 @@
+# Build
+build/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+*.csv
+*.json
+*.png
+*.html
+
+# Artifacts
+!viz/*.png
+!viz/*.html
