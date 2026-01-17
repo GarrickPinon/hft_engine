@@ -55,3 +55,7 @@ python viz/orderbook_surface.py
 - `/models`: Signal generation (Stat-Arb, ML).
 - `/risk`: Pre-trade risk & Kill-switches.
 - `/viz`: Python 3D visualization suite.
+
+
+---
+> **Built with [Antigravity](https://deepmind.google)** 
