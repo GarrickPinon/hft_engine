@@ -1,6 +1,6 @@
 # HFT Engine (C++20 & Python)
 
-A production-grade, ultra-low-latency High-Frequency Trading (HFT) system achieving **53 nanosecond** internal latency (benchmarked).
+A production-grade, ultra-low-latency High-Frequency Trading (HFT) system achieving **57 nanosecond** internal latency (benchmarked).
 
 Designed for **Equities (TXSE, NASDAQ)** and **Crypto (BTC, Stablecoins)**.
 
