@@ -4,7 +4,12 @@ A production-grade, ultra-low-latency High-Frequency Trading (HFT) system achiev
 
 Designed for **Equities (TXSE, NASDAQ)** and **Crypto (BTC, Stablecoins)**.
 
+### 1. Latency Landscape (53ns core)
 ![Latency Landscape](viz/demo_latency_landscape.png)
+
+### 2. Order Book Depth (Real-time)
+![Order Book Surface](viz/demo_orderbook_surface.png)
+
 *(Note: Generate your own 3D landscape using `python viz/latency_landscape.py`)*
 
 ## Performance
