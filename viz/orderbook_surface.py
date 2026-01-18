@@ -63,17 +63,24 @@ def create_orderbook_surface(
     ask_grid.points = ask_points
     ask_grid.dimensions = [len(times), len(prices), 1]
     
-    # Add surfaces to plotter
+    # Add surfaces to plotter with Inferno cmap
     plotter.add_mesh(
         bid_grid,
-        color='#00FFFF',  # Aqua/Teal for Bids
-        opacity=0.8,
+        scalars=bid_points[:, 2],
+        cmap='inferno',
+        opacity=0.95,
         smooth_shading=True,
+        show_scalar_bar=False,  # Remove individual colour bars to unclutter
         label='Bids'
     )
     plotter.add_mesh(
         ask_grid,
-        color='#FF69B4',  # HotPink for Asks
+        scalars=ask_points[:, 2],
+        cmap='inferno',
+        opacity=0.95,
+        smooth_shading=True,
+        show_scalar_bar=False,
+        label='Asks'
     )
     
     # Add mid-price plane
@@ -85,7 +92,7 @@ def create_orderbook_surface(
         i_size=100,
         j_size=20
     )
-    plotter.add_mesh(plane, color='white', opacity=0.2, label='Mid Price')
+    plotter.add_mesh(plane, color='white', opacity=0.1)
 
 
 def main():
@@ -105,13 +112,13 @@ def main():
     # Create plotter
     pv.set_plot_theme('dark')
     plotter = pv.Plotter(off_screen=args.no_display)
-    plotter.set_background('#050510') # Deep dark blue/black
+    plotter.set_background('#050508') # Obsidian
     
-    # Add title
+    # Add title (Smaller)
     plotter.add_text(
-        "Order Book Depth Surface",
+        "Order Book Depth",
         position='upper_left',
-        font_size=14,
+        font_size=12,
         color='white'
     )
     
@@ -121,14 +128,18 @@ def main():
     # Configure camera
     plotter.camera_position = 'iso'
     plotter.add_axes(
-        xlabel='Time',
-        ylabel='Price',
-        zlabel='Depth',
-        line_width=2
+        xlabel='T', ylabel='Px', zlabel='Vol',
+        line_width=2,
+        color='white',
+        viewport=(0, 0, 0.2, 0.2)
     )
     
-    # Add legend
-    plotter.add_legend(bcolor=(0.1, 0.1, 0.2, 0.8))
+    # Minimal Legend
+    plotter.add_legend(
+        bcolor=(0, 0, 0, 0),  # Transparent
+        size=(0.1, 0.1),
+        face=None
+    )
     
     # Export if requested
     if args.export:

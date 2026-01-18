@@ -42,7 +42,8 @@ def create_latency_histogram_3d(data: dict, plotter: pv.Plotter) -> None:
     norm_values = [v / max_val * 50 for v in values]
     
     # Create 3D bars
-    colors = ['#008080', '#00FFFF', '#E0FFFF', '#FFD700', '#FF69B4', '#DAA520', '#8B4513']  # Teal, Aqua, LightCyan, Gold, HotPink, GoldenRod, SaddleBrown
+    # Inferno Spectrum (Black -> Deep Red -> Orange -> Yellow)
+    colors = ['#000004', '#420A68', '#932667', '#DD513A', '#FCA50A', '#F6D645', '#FCFFA4']
     
     for i, (bucket, height, color) in enumerate(zip(buckets, norm_values, colors)):
         # Create a box for each bar
@@ -91,7 +92,7 @@ def create_latency_surface(data: dict, plotter: pv.Plotter) -> None:
     plotter.add_mesh(
         grid,
         scalars='latency',
-        cmap='magma',  # Gold/Pink/Dark scheme
+        cmap='magma',  # Fire Horse (Purple/Red/Gold)
         smooth_shading=True,
         opacity=0.85
     )
@@ -179,8 +180,13 @@ def main():
     # Add percentile info
     add_percentile_markers(data, plotter)
     
-    # Configure view
-    plotter.add_axes(xlabel='Sample X', ylabel='Sample Y', zlabel='Latency (log)')
+    # Configure view with matching axes
+    plotter.add_axes(
+        xlabel='X', ylabel='Y', zlabel='Lat',
+        line_width=2,
+        color='white',
+        viewport=(0, 0, 0.2, 0.2)  # Smaller, unobtrusive
+    )
     
     # Export
     if args.export:
