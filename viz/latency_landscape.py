@@ -42,7 +42,7 @@ def create_latency_histogram_3d(data: dict, plotter: pv.Plotter) -> None:
     norm_values = [v / max_val * 50 for v in values]
     
     # Create 3D bars
-    colors = ['#00ff88', '#44ff44', '#88ff00', '#ffff00', '#ff8800', '#ff4400', '#ff0000']
+    colors = ['#008080', '#00FFFF', '#E0FFFF', '#FFD700', '#FF69B4', '#DAA520', '#8B4513']  # Teal, Aqua, LightCyan, Gold, HotPink, GoldenRod, SaddleBrown
     
     for i, (bucket, height, color) in enumerate(zip(buckets, norm_values, colors)):
         # Create a box for each bar
@@ -91,7 +91,7 @@ def create_latency_surface(data: dict, plotter: pv.Plotter) -> None:
     plotter.add_mesh(
         grid,
         scalars='latency',
-        cmap='viridis',
+        cmap='magma',  # Gold/Pink/Dark scheme
         smooth_shading=True,
         opacity=0.85
     )
@@ -157,7 +157,7 @@ def main():
     # Create plotter
     pv.set_plot_theme('dark')
     plotter = pv.Plotter(off_screen=args.no_display)
-    plotter.set_background('#0d1117')
+    plotter.set_background('#050510')  # Deep dark blue/black
     
     # Add title
     plotter.add_text(

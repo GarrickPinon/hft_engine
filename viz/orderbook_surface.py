@@ -66,17 +66,14 @@ def create_orderbook_surface(
     # Add surfaces to plotter
     plotter.add_mesh(
         bid_grid,
-        color='#00ff88',
+        color='#00FFFF',  # Aqua/Teal for Bids
         opacity=0.8,
         smooth_shading=True,
         label='Bids'
     )
     plotter.add_mesh(
         ask_grid,
-        color='#ff4444',
-        opacity=0.8,
-        smooth_shading=True,
-        label='Asks'
+        color='#FF69B4',  # HotPink for Asks
     )
     
     # Add mid-price plane
@@ -108,7 +105,7 @@ def main():
     # Create plotter
     pv.set_plot_theme('dark')
     plotter = pv.Plotter(off_screen=args.no_display)
-    plotter.set_background('#1a1a2e')
+    plotter.set_background('#050510') # Deep dark blue/black
     
     # Add title
     plotter.add_text(
