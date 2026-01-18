@@ -65,36 +65,62 @@ python viz/orderbook_surface.py
 ## **1. 📐 Kinematics & Free‑Fall**
 **Principle:** Deterministic motion under constant acceleration.  
 **Role:** Conceptualized **latency as time‑to‑impact** and **slippage as displacement**.
-$$ v = v_0 + at $$
-$$ x = x_0 + v_0 t + \frac{1}{2}at^2 $$
+
+$$
+v = v_0 + at
+$$
+
+$$
+x = x_0 + v_0 t + \frac{1}{2}at^2
+$$
 
 ## **2. 🔄 Mean Reversion (Ornstein–Uhlenbeck)**
 **Principle:** Price dynamics modeled as stochastic differential equations (SDEs).  
 **Role:** Informed regime segmentation and signal generation ($dX_t$).
-$$ dX_t = \theta(\mu - X_t)\,dt + \sigma\,dW_t $$
+
+$$
+dX_t = \theta(\mu - X_t)\,dt + \sigma\,dW_t
+$$
 
 ## **3. 📊 Probability & Distributions**
 **Principle:** Empirical distribution analysis for PnL and high-resolution latency histograms.  
 **Role:** Tail risk evaluation and quantifying the **53ns** mean latency.
-$$ \mathbb{E}[X] = \sum x_i p_i $$
+
+$$
+\mathbb{E}[X] = \sum x_i p_i
+$$
 
 ## **4. 🧮 Jacobian Geometry & Integration**
 **Principle:** Multivariate transformations and sensitivity analysis.  
 **Role:** Ensured **deterministic, invertible** data mappings and audit-grade reproducibility.
-$$ J_{ij} = \frac{\partial f_i}{\partial x_j} $$
+
+$$
+J_{ij} = \frac{\partial f_i}{\partial x_j}
+$$
 
 ## **5. ⚙️ Latency Optimization**
 **Principle:** Minimizing time‑to‑decision via component decomposition.  
 **Role:** The theoretical basis for the 7500× speedup (4µs $\to$ 53ns).
-$$ L_{total} = L_{net} + L_{decode} + L_{compute} + L_{encode} $$
+
+$$
+L_{total} = L_{net} + L_{decode} + L_{compute} + L_{encode}
+$$
 
 ## **6. 📉 Cumulative PnL Time‑Series**
-**Principle:** Path‑dependent performance evaluation ($ \text{PnL}_t = \sum p_i $).  
+**Principle:** Path‑dependent performance evaluation.  
 **Role:** The "heartbeat" of the engine—detecting drift, regime shifts, and execution quality.
 
+$$
+\text{PnL}_t = \sum p_i
+$$
+
 ## **7. 🧠 Bayesian Model Selection**
-**Principle:** Updating beliefs based on new evidence ($ P(M \mid D) \propto P(D \mid M) P(M) $).  
+**Principle:** Updating beliefs based on new evidence.  
 **Role:** Shaped the architecture for adaptive model weighting and future ML integration.
+
+$$
+P(M \mid D) \propto P(D \mid M) P(M)
+$$
 
 ---
 
